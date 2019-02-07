@@ -18,6 +18,12 @@ $ python train.py --depth 26 --base_channels 32 --shake_forward True --shake_bac
 
 * The model of shake-shake-26 2x64d (S-S-I) is trained with batch size 64, and initial learning rate 0.1.
 
+Reproduce:
+
+| Model                        | Test Error (single run)       | Test Error (in paper)    | Training Time |
+|:-----------------------------|:-----------------------------:|:------------------------:|--------------:|
+| shake-shake-26 2x32d (S-S-I) | 3.64                          |                          | 17h50m        |
+
 ![](figures/shake-shake-26_2x32d.png)
 ![](figures/shake-shake-26_2x64d.png)
 ![](figures/shake-shake-26_2x96d.png)
